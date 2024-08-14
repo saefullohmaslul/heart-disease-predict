@@ -9,6 +9,7 @@ with open(model_filename, 'rb') as file:
 
 def main():
     st.title('Heart Disease Prediction')
+    st.markdown('## By Saefulloh Maslul - MAI 12')
     age = st.slider('Age', 18, 100, 50)
     
     sex_options = ['Male', 'Female']
